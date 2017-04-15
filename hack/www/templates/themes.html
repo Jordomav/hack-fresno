@@ -1,0 +1,14 @@
+<ion-view title="Home"
+          class="home">
+  <ion-content padding="true">
+    <h1 class="text-center">{{themes.title}}</h1>
+    <div class="card" ng-repeat="theme in themes.themes">
+      <div class="item item-divider">
+        {{theme.title}}
+      </div>
+      <div class="item item-text-wrap">
+        {{theme.content}}
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
